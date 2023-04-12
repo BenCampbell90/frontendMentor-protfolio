@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">>
+  <link rel="stylesheet" href="styles.css">
+  <title>Single-page developer portfolio</title>
+</head>
+
+<body>
+  <!-- welcome section -->
+    <section id="welcome">
+      <img class="img-rings-top-left" src="public\images\pattern-rings.svg" alt="rings">
+
+      <img class="img-circle" src="public\images\pattern-circle.svg" alt="circle">
+      <img class="img-profile" src="public\images\image-profile-desktop.webp" alt="profile picture"/>
+      <nav id="nav-bar">
+        <h3 class="nav-heading">bencampbell</h3>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a target="_blank" href="#link" >
+              <img class="icon" src="public\images\icon-frontend-mentor.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img class="icon" src="public\images\icon-github.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img class="icon" src="public\images\icon-linkedin.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img class="icon" src="public\images\icon-twitter.svg" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="welcome-text">
+        <h1 class="welcome-heading">
+          Nice to meet you!<br />
+          I'm <span class="underline-h1">Ben Campbell</span>.
+        </h1>
+        <p class="welcome-p">
+          Based in Australia, I'm a full stack developer passionate about building web apps.
+        </p>
+        <a href="#contact" class="underline-contact-me on-hover">CONTACT ME</a>
+      </div>
+
+    </section>
+
+
+    <hr class="hr-top">
+    
+    <img class="img-rings-middle-right" src="public\images\pattern-rings.svg" alt="rings">
+    <!-- experience section -->
+    <section id="experience" class="exp-grid-container">
+      <div>
+        <h2 class="exp-heading">HTML</h2>
+        <p>1 Year Experience</p>
+      </div>
+      <div>
+        <h2 class="exp-heading">CSS</h2>
+        <p>years</p>
+      </div>
+      <div>
+        <h2 class="exp-heading">Javascrpit</h2>
+        <p>years</p>
+      </div>
+      <div>
+        <h2 class="exp-heading">SASS</h2>
+        <p>years</p>
+      </div>
+      <div>
+        <h2 class="exp-heading">React</h2>
+        <p>years</p>
+      </div>
+      <div>
+        <h2 class="exp-heading">MongoDB</h2>
+        <p>years</p>
+      </div>
+    </section>
+
+    <!-- project section -->
+    <section id="projects">
+        
+      <div class="project-heading-container">
+        <h1 class="projects-heading">Projects</h1>
+        <a href="#contact" class="underline-contact-me projects-contact on-hover">CONTACT ME</a>
+      </div>
+
+      <div class="projects-grid-container">
+
+        <div class="project-grid-item">
+          <div class="img-project-container">
+            <a class="img-project-link link1 on-hover" href="#">View Project</a>
+            <a class="img-project-link link2 on-hover" href="#">View Project</a>
+            <img class="img-project" src="public\images\thumbnail-project-1-large.webp" alt=""/>
+          </div> 
+          <h3 class="project-item-title">Project1</h3>
+          <p>technology used</p>
+        </div>
+
+        <div>
+          <a href="">
+            <img class="img-project" src="public\images\thumbnail-project-2-large.webp" alt=""/>
+          </a>
+          <h3 class="project-item-title">Project2</h3>
+          <p>technology used</p>
+        </div>
+
+        <div>
+          <a href="">
+            <img class="img-project" src="public\images\thumbnail-project-3-large.webp" alt=""/>
+          </a>
+          <h3 class="project-item-title">Project3</h3>
+          <p>technology used</p>
+        </div>
+
+        <div>
+          <a href="">
+            <img class="img-project" src="public\images\thumbnail-project-4-large.webp" alt=""/>
+          </a>
+          <h3 class="project-item-title">Project4</h3>
+          <p>technology used</p>
+        </div>
+
+        <div>
+          <a href="">
+            <img class="img-project" src="public\images\thumbnail-project-5-large.webp" alt=""/>
+          </a>
+          <h3 class="project-item-title">Project5</h3>
+          <p>technology used</p>
+        </div>
+
+        <div>
+          <a href="">
+            <img class="img-project" src="public\images\thumbnail-project-6-large.webp" alt=""/>
+          </a>
+          <h3 class="project-item-title">Project6</h3>
+          <p>technology used</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+
+      <img class="img-rings-bottom-left" src="public\images\pattern-rings.svg" alt="rings">
+      <div class="contact-grid-container">
+        <div class="grid-item">
+          <h1 class="heading-contact">Contact</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repellendus numquam natus quod deserunt, reiciendis ab iure pariatur perferendis nam eos doloremque. Tempore commodi vero illum pariatur consequatur, voluptates harum?</p>
+        </div>
+
+        <div class="grid-item">
+          <form action="mailto:bencampbell90@outlook.com"
+                method="POST"
+                name="emailForm"
+                class="grid-item-flex">
+            <input class="input" type="text" name="name" placeholder="NAME" />
+            <input class="input" type="email" name="email" placeholder="EMAIL"/>
+            <textarea class="input" rows="5"  name="ContactComment" placeholder="MESSAGE"></textarea>
+            <button class="underline-contact-me " type="submit"><a class="on-hover">SEND MESSAGE</a></button>
+          </form>
+        </div>
+        
+      </div>
+      
+      <hr class="hr-bottom">
+
+      <nav id="nav-bar">
+        <h3 class="nav-heading">bencampbell</h3>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a target="_blank" href="#link" >
+              <img  class="icon" src="public\images\icon-frontend-mentor.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img  class="icon" src="public\images\icon-github.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img  class="icon" src="public\images\icon-linkedin.svg" />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" href="#link">
+              <img  class="icon" src="public\images\icon-twitter.svg" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
